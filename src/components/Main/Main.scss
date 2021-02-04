@@ -1,0 +1,14 @@
+main {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, max-content);
+  row-gap: 20px;
+  column-gap: 40px;
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 20px 30px 40px;
+  border-top-left-radius: 66px;
+  border-top-right-radius: 66px;
+  min-height: 800px;
+}
